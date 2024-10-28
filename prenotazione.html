@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="gestionePrenotazione.php" method="post">
+        Nome:<br>
+        <input type="text" name="nome"><br>
+        Cognome:<br>
+        <input type="text" name="cognome"><br>
+        Numero del Tavolo:<br>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <br>
+        Orario:<br>
+        <input type="time" name="orario"><br><br>
+        <textarea name="note"></textarea><br>
+        <input type="checkbox" name="prePasto" value="antipasto">antipasto
+        <input type="checkbox" name="primoPasto" value="primo">primo
+        <input type="checkbox" name="secondoPasto" value="secondo">secondo
+        <br>
+        <input type="radio" name="parcheggio" value="custodito">parcheggio custodito
+        <input type="radio" name="parcheggio" value="nonCustodito">parcheggio non custodito
+        <input type="radio" name="parcheggio" value="niente">niente parcheggio
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
